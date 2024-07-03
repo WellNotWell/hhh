@@ -32,7 +32,7 @@ module.exports = {
             options: {
               name: '[name].[ext]',
               outputPath: 'img/',
-              publicPath: `/hhh/img/`
+              publicPath: `/hhh/img`
             },
           },
         ],
