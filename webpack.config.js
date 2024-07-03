@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/',
+    publicPath: '/hhh/',
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
@@ -32,7 +32,7 @@ module.exports = {
             options: {
               name: '[name].[ext]',
               outputPath: 'img/',
-              publicPath: 'img/'
+              publicPath: '/hhh/img/'
             },
           },
         ],
