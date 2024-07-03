@@ -43,7 +43,9 @@ module.exports = {
     }),
   ],
   devServer: {
-    contentBase: './dist', // Корневая папка для dev-сервера
-    historyApiFallback: true, // Для поддержки react-router
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    historyApiFallback: true,
   },
 };
