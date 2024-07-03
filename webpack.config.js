@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/hhh/',
+    publicPath: '/',
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
@@ -32,7 +32,7 @@ module.exports = {
             options: {
               name: '[name].[ext]',
               outputPath: 'img/',
-              publicPath: '/hhh/img/'
+              publicPath: 'img/'
             },
           },
         ],
@@ -45,7 +45,7 @@ module.exports = {
       inject: 'body',
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].css', // имя для файла стилей
+      filename: '[name].css',
       chunkFilename: '[id].css',
     }),
   ],
