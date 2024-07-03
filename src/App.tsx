@@ -4,7 +4,7 @@ import Main from './pages/main';
 import ComicPage from './pages/comic_page';
 
 const App: React.FC = () => (
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router>
     <Routes>
       <Route path="/" element={<Main />} />
       <Route path="/comic" element={<ComicPage />} />
