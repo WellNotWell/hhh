@@ -6,8 +6,8 @@ import ComicPage from './pages/comic_page';
 const App: React.FC = () => (
   <Router>
     <Routes>
-      <Route path="/" element={<Main />} />
-      <Route path="/comic" element={<ComicPage />} />
+      <Route path="hhh/" element={<Main />} />
+      <Route path="hhh/comic" element={<ComicPage />} />
     </Routes>
   </Router>
 );
