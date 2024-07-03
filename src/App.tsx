@@ -4,9 +4,9 @@ import Main from './pages/main';
 import ComicPage from './pages/comic_page';
 
 const App: React.FC = () => (
-  <Router>
+  <Router basename='hhh'>
     <Routes>
-      <Route path="hhh/" element={<Main />} />
+      <Route path="/" element={<Main />} />
       <Route path="/comic" element={<ComicPage />} />
     </Routes>
   </Router>
